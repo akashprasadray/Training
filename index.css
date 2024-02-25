@@ -28,7 +28,7 @@ body{
     padding: 0px;
 }
 nav{
-    background-color: red;
+    background-color: #9D4BEB;
     display: flex;
     align-items: center;
     padding: 10px 20px;
@@ -48,8 +48,13 @@ nav{
     display: flex;
     gap: 10px;
     align-items: center;
+    
  }
- .menu_item
+ .menu_items a{
+    color:white;
+    text-decoration: none;
+
+ }
 .info{
     display: flex;
     align-items: center;
@@ -65,4 +70,35 @@ nav{
     color: white;
     padding: 10px;
     border-radius: 10px;
+}
+/* banner */
+.banner{
+
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(#9D4BEB,#583AD6);
+}
+.banner_info{
+    width: 80%;
+    height: 100%;
+    margin: 0px auto;
+    display: flex;
+    gap: 10px;
+
+}
+.banner_info div{
+    flex: 1;
+    display: flex;
+    flex-direction: cloumn;
+    justify-content: center;
+    gap: 10px;
+    height: fit-content;
+}
+.learn_button{
+    height: fit-content;
+    width: fit-content;
+    background-color: #04D2CB;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
 }
