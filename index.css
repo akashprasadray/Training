@@ -1,4 +1,4 @@
-h2{
+/* h2{
     color:blue;
 }
 @media(max-width:600px)
@@ -9,7 +9,7 @@ h2{
     }
 }
 .navigation{
-    background-color:red;
+    background-color:blue;
 }
 #navs{
     color:white;
@@ -22,4 +22,47 @@ h2{
 .menu-items{
     display:flex;
     gap:10px;
+} */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: white;
+}
+.logo div{
+    font-size: 20px;
+    font-weight: 800;
+}
+ .menu_item{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+ }
+ .menu_item
+.info{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+}
+.info div{
+    display: flex;
+    font-size: 10px;
+}
+.callbutton{
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
 }
