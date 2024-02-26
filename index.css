@@ -23,6 +23,10 @@
     display:flex;
     gap:10px;
 } */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    font-family: "Playfair Display", serif;
+}
 body{
     margin: 0px;
     padding: 0px;
@@ -44,9 +48,9 @@ nav{
     font-size: 20px;
     font-weight: 800;
 }
- .menu_item{
+ .menu_items{
     display: flex;
-    gap: 10px;
+    gap: 30px;
     align-items: center;
     
  }
@@ -103,3 +107,22 @@ nav{
     padding: 10px 20px;
     border-radius: 20px;
 }
+.learn_text{
+    color: white;
+    font-size: 2.4em;
+    font-weight: 600;
+}
+.banner_image{
+    height: 400px;
+    width: 500px;
+
+/* .banner_image{
+    content: ""
+    !important;
+    height: 60vh
+    !important;
+    background-image: url(pngwing.com.png);
+    width: 800% !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
