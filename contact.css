@@ -35,3 +35,69 @@
         stroke-dasharray: 31% 0;
     }
 }
+/* circle */
+.maincircle{
+    width: 70%;
+    padding: 10px 0px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.Enroll{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Enroll_button{
+    height: max-content;
+    width: fit-content;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: green;
+}
+.circle {
+    position: relative;
+    color: white;
+    height: 250px;
+}
+.one{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(199, 156, 0,0.6);
+}
+.two{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 152,199, 0.6);
+}
+.three{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 199, 90,0.6);
+}
