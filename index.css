@@ -190,7 +190,7 @@ nav{
 }
 .three{
     position: absolute;
-    bottom: 0px;
+    bottom: 10px;
     left: 0px;
     right: 0px;
     margin: 0px auto;
@@ -201,4 +201,78 @@ nav{
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 199, 90,0.6);
+}
+
+/* popular courses */
+.popular_title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: 0px auto;
+}
+
+.pt_title{
+    font-weight: 700;
+    font-size: 24px;
+
+}
+.popular_title div{
+  text-align: center;
+}
+.popular_filter{
+    width: 60%;
+    margin: 40px auto;
+    box-shadow: 0px 3px 40px rgb(191,191,191);
+    display: flex;
+    padding: 20px 10px;
+    justify-content: space-between;
+
+}
+.popular_filter div{
+    font-weight: 700;
+}
+.courses{
+    width: 80%;
+    margin: 0px auto;
+    display: grid;
+    padding: 30px Opx;
+    gap: 20px;
+    grid-template-columns: 33% 33% 33%;
+}
+.card{
+    padding: 6px;
+    box-shadow: 1px 1px 20px lightgray;
+    border-radius: 10px;
+}
+
+.card_image{
+    height: 300px;
+    width: 400px;
+    justify-content: center;
+}
+.rating{
+    margin-top: 40px;
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding: 10px 0px;
+    color: rgb(58, 58, 58);
+}
+.card_title{
+    padding: 6px 0px;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+.card_category{
+    color: rgb(91, 90, 90);
+    font-size: 16px;
+}
+.discount{
+    text-decoration: line-through;
+    color:gray;
+
 }
