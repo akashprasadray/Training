@@ -246,11 +246,20 @@ nav{
     box-shadow: 1px 1px 20px lightgray;
     border-radius: 10px;
 }
+.card_wrapper{
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
 
 .card_image{
     height: 300px;
     width: 400px;
     justify-content: center;
+}
+
+.card_image:hover{
+    transform: scale(1.1);
 }
 .rating{
     margin-top: 40px;
@@ -276,3 +285,68 @@ nav{
     color:gray;
 
 }
+.course_button{
+height: fit-content;
+width: fit-content;
+padding: 20px 40px;
+border: 1px solid #04D2CB;
+color:#04D2C8;
+border-radius: 50px;
+margin: 0px auto;
+position: relative;
+overflow:clip;
+transition: all .8s ease-in-out;
+}
+.empty{
+    height: 0%;
+    width: 100%;
+    content: '';
+    contain: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: all .8s ease-in-out;
+    background-color:#04D2C8;
+}
+
+.button-text{
+    position: relative;
+    z-index: 1;
+    transition: all .8s ease-in-out;
+}
+.course_button:hover .empty, 
+.course_button:hover .button-text{
+    color: white;
+    height:100%;
+}
+ /* testoniomial */
+ .testoniomial{
+    background image= url()
+ }
+ .testoniomial_data{
+    width: 50%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+ }
+ .testoniomial_data img{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 100%;
+ }
+ .testoniomial_data p{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+ }
+ .testoniomial_data div{
+    color: white;
+    font-size: 24px;
+    font-size: 800;
+ }
